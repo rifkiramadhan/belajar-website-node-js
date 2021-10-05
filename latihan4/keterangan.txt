@@ -1,0 +1,30 @@
+---- Keterangan Latihan 4 (NodeJS Module System) ----
+
+1. Pengertian
+   - Modules
+     - Sekumpulan code yang dapat digunakan kembali, dengan antarmuka yang terdefinisi
+     - Jadi ada baris-baris code yang dapat kita pakai menggunakan cara tertentu, maksudnya antar muka adalah jadi ada caranya untuk menggunakan
+       code tersebut
+   - Node Modules
+     - Fungsionalitas yang simpel ataupun kompleks yang tersimpan di dalam sebuah file javascript, yang dapat kita gunakan kembali pada aplikasi NodeJS,
+       jadi seperti fungsionalitas di file yang satu kita export lalu kita gunakan fungsionalitas itu di file yang lain dengan menggunakan require
+     - Prilaku pada Node Modules ini adalah Setiap modul di dalam NodeJS memiliki konteksnya masing-masing, tidak bisa saling tercampur dengan modul
+       lain pada lingkup global, jadi tidak bisa sembarang dipakai kecuali kita lakukan export dan require
+   - NodeJS Modules
+     - Core Modules
+       - Yaitu modules yang sudah dimiliki oleh NodeJS di dalam library nya, jadi nanti kita bisa memakainya misalnya kita ingin mengakses file System dan network
+         maka kita tinggal panggil module nya
+       - Jika menggunakan Core Modules proses export nya sudah dilakukan oleh NodeJS maka kita tinggal merequire saja
+     - Local Modules
+       - Ini adalah module yang kita buat sendiri, kalau kita buat sendiri berarti kita perlu melakukan dua hal
+         - export()
+         - require(), mencari module dengan urutan sebagai berikut
+           - Core Modules
+           - File atau direktori (./ atau / atau / ../)
+           - Folder 'node_modules'
+     - Third Party Modules
+       - Ini adalah module yang dibuat oleh orang lain yang bisa kita pakai, ini biasa disebut dengan npm modules, karena semua module yang dibuat oleh
+         pihak ketiga itu sudah dikumpulkan oleh NodeJS ke sebuah package manager yang namanya npm
+     - Constructor
+       - Adalah method yang automatice di jalankan class ini di instansiasi
+       

@@ -1,0 +1,14 @@
+---- Keterangan Latihan 4 (NodeJS Core Module) ----
+
+1. Pengertian
+   - Core Modules
+
+   - File System
+     - Digunakan ketika kita akan mencoba untuk menuliskan sesuatu ke dalam file system kita ke dalam directory kita atau membaca
+       isi dari file yang ada di directory kita
+   - writeFileSync
+     - Untuk menuliskan sesuatu ke dalam sebuah file secara synchronous
+   - writeFile
+     - Untuk menuliskan sesuatu ke dalam sebuah file secara asynchronous
+   - Readline
+     - Adalah sebuah module untuk membaca apa yang kita tuliskan nanti di command prompt nya atau diterminal nya

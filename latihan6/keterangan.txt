@@ -1,0 +1,42 @@
+---- Keterangan Latihan 6 (Apa Itu NPM ?) ----
+
+1. Pengertian Keyword
+   - Ketik npm -v
+     - Ketika NPM sudah terinstall automatice akan terlihat versinya
+   - Ketik npm -int
+     - Untuk menginisialisasi folder ini sebagai project NPM, ketika ketik enter maka akan terdapat penjelasan dan akan diberi secara automatice
+       panduan untuk menjelaskan project nya itu apa 
+       - Default package nya adalah nama folder, jika ingin diubah silahkan ketik tapi jika tidak 
+         silahkan tekan enter, maka yang dipakai adalah yang defaultnya
+       - Kemudian ada version, nah ini versinya sudah menganut semantic version ada tiga digit secara default dia adalah 1.0.0, artinya jika ada
+         software, package atau apapun yang ada tiga digit angka version ini berarti sudah menganut semantic version
+         - Digit ketiga disebut path, jika berubah maka yang berubah hanya perbaikan pada bug nya saja, jadi kalau beda versi itu tidak masalah selama
+           yang berubah adalah tiga digit yang terakhir ini jadi hanya bug fix saja
+         - Digit kedua artinya perubahan minor, jadi perubahannya lebih banyak daripada path, tapi kemungkinan masih bisa dipakai jika menggunakan versi
+           yang berbeda
+         - Digit pertama artinya mejer nya, jadi kemungkinan besar jika menggunakan versi yang berbeda depannya maka tidak akan sama, jadi misalkan kita
+           menggunakan package yang berbeda maka versi dengan yang lain pastinya tidak berubah terlalu jauh apa lagi berubahnya digit depannya, karena
+           kalau depannya tidak meyakinkan masih tetap sama atau tidak, tapi kalau masih yang paling belakang sepertinya masih aman
+    - Ketik npm start
+      - Maka NPM nya akan menjalankan perintah node app.js
+      - Ini juga digunakan ketka aplikasinya di deploy, maka kita bisa memilih script mana yang dijalankan ketika aplikasinya di deploy, bahkan kita
+        dapat menggunakan perintah sendiri apapun itu yang tidak tersedia pada scripts
+    - Ketik npm test
+      - Maka NPM nya akan menjalankan perintah untuk testing aplikasi yang dibuat
+    - Ketik npm i validator
+      - Untuk mempermudah kita mlakukan validasi terhadap string
+    - Ketik npm uninstall validator
+      - Untuk menghapus instalan dari module validator
+    - Ketik npm i validator@13.5.2
+      - Untuk menginstall dependensi berdasarkan versinya
+
+1. Pengertian
+   - Validator
+     - Adalah sebuah package yang mempermudah kita untuk melakukan validasi terhadap string, string nya yang bisa ditulis sendiri atau yang di inputkan
+       oleh user, jadi kita tidak perlu repot-repot lagi untuk membuat fungsi untuk mengetahui apakah string itu adalah email, notelp, dll
+   - package.json
+     - Adalah file yang berisi deskripsi dari project Nodejs, berisi nama, versi, dan deskripsi. Lalu di bagian script, berisi skrip-skrip bash atau 
+       command line untuk dieksekusi dengan NPM
+   - package-lock.json
+     - Adalah file untuk mengelola secara lebih detil dari dependensi kita, dan file ini sepertinya tidak perlu di ubah, kalau perlu ingin diubah itu
+       di dala package.json nya

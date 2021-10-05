@@ -1,0 +1,16 @@
+---- Keterangan Latihan 3 (Cara Menjalankan File Node) ----
+
+1. Pengertian
+   - Cara menjalankan file node
+     - Ketik .node untuk menjalankan root (index.js)
+
+2. Rangkuman
+   - Di dalam NodeJS ada cara untuk memanggil file lain dalam satu file dengan cara
+     - require()
+       - Untuk memanggil file lain
+     - module.exports()
+       - Untuk memanggil file yang didalamya terdapat variable yan merequire nama file nya
+   - di dalam NodeJS menganut dalam sistem module, jadi dia menganggap satu file itu sebagai satu module sendiri, maka apa yang ada di module
+     yang satu itu tidak bisa begitu saja diakses oleh module yang lain
+   - Jadi NodeJS menggunakan module system jadi tidak bisa begitu saja berinteraksi antara satu file dengan file yang lain meskipun
+     kita sudah require, tapi dia bisa eksekusi, kecuali script yang dipisahkan dipindahkan ke dalam folder asalnya

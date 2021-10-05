@@ -1,0 +1,36 @@
+---- Keterangan Latihan 2 (REPL) ----
+
+1. Pengertian
+   - REPL (Read-Eval-Print-Loop)
+     - Adalah sebuah fitur untuk membaca, mengevaluasi, mencetak, dan mengulang kembali script dari NodeJS, dan biasanya dilakukan untuk
+       - Mendebug dari script kita jadi kita pengen mengetahui sebuah ekspresi atau sebuah script ini benar atau salah
+       - Untuk mengeksekusi code melalui command prompt atau lewat terminal
+   - Cara mengeksekusi REPL
+     - Kita dapat membuat membuat fungsi, mendeklarasikan variabel satu persatu dan menjalankannya di dalam REPL
+     - Ketik global. lalu tekan tab 2x, untuk melihat modul global pada NodeJS dan menjalankannya scriptnya di dalam file javascript
+     - Ketik .help, untuk melihat special keyword atau special command
+     - Ketik .exit, untuk keluar dari REPL dan menghapus semua sesi dari REPL nya
+   - Cara mengeksekusi REPL di VIM
+     - Ketik touch coba.js, untuk membuat file javascript
+     - Ketik vi coba.js, untuk masuk ke dalam VIM
+     - Ketik escape, :w (untuk write) q (untuk quite), untuk keluar dari VIM
+     - Ketik cat coba.js, untuk melihat isi dari VIM
+     - Ketik node, untuk masuk ke node REPL nya lagi
+     - Ketik .load coba.js, untuk meload file javascript yang sudah dibuat
+     - Ketik nama -> enter dan umur -> enter, untuk melihat hasil nama dan umur dari variabel yang dibuat
+     - Ketik .exit, untuk keluar dari node nya
+     - Ketik clear, untuk membersihkan teks pada git bash
+     - Ketik rm coba.js, untuk menghapus file coba.js yang telah dibuat
+     - Ketik node, untuk masuk ke node REPL nya lagi, dan buat fungsi di dalam nodenya
+     - Ketik .save untuk membuat file yang ingin disimpan
+     - Ketik clear, untuk membersihkan teks pada git bash
+     - Ketik .exit, untuk keluar dari node nya
+     - Ketik cat coba2.js, untuk melihat isi dari node REPL yang telah dibuat
+     - Ketik vi coba.js, untuk masuk ke dalam VIM
+     - Ketik escape, :w (untuk write) q (untuk quite), untuk keluar dari VIM
+     - Ketik cat coba2.js, untuk melihat isi dari VIM
+     - Ketik .break dan .clear, digunakan untuk keluar ditengah-tengah membuat coding yang ditulis
+     - Ketik .editor, untuk memunculkan text editor di dalam REPL seperti VIM
+     - Ketik CTRL+D, ketika ingin menggunakan scriptnya
+     - ketik CTRL+C, ketika ingin mendiscard atau tidak dipakai scriptnya
+
