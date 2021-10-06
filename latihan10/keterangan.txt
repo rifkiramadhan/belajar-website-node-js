@@ -1,0 +1,52 @@
+---- Keterangan Latihan 9 (Membuat Contact App (Bagian 3)) ----
+
+1. Pengertian
+   - Core Modules
+
+   - File System
+     - Digunakan ketika kita akan mencoba untuk menuliskan sesuatu ke dalam file system kita ke dalam directory kita atau membaca
+       isi dari file yang ada di directory kita
+   - writeFileSync
+     - Untuk menuliskan sesuatu ke dalam sebuah file secara synchronous
+   - writeFile
+     - Untuk menuliskan sesuatu ke dalam sebuah file secara asynchronous
+   - Readline
+     - Adalah sebuah module untuk membaca apa yang kita tuliskan nanti di command prompt nya atau diterminal nya
+   - existsSync
+     - Untuk mengecek apakah sebuah file atau directory itu ada atau tidak didalam file system kita
+   - mkdirSync
+     - Untuk membuat folder file direktory baru
+   - Async & Await
+     - Adalah cara kita untuk mengatasi callback hell, jadi tidak lagi codingan yang menjorok ke dalam, jadi gaya codingannya menjadi async await
+     - Problemnya adalh async await hanya bisa kita lakukan ketika kita berhadapan dengan promise, masalahnya callback yang kita punya belum
+       berbentuk promise, makanya kita harus mengubah terlebih dahulu setiap question nya kedalam promise baru kita bisa gunakan async dan await
+   - find
+     - Begitu ketemu yang namanya sesuai maka penelusurannya berhenti
+   - filter
+     - Penelusurannya dilakukan terus sampai arraynya selesai
+   - Ketik npm -y 
+     - Artinya semua pertanyaannya akan dijawab dengan yes atau di pilih nilai defaultnya (Mempersingkat)
+   - Ketik npm install yargs@16.2.0
+     - Untuk menginstall yargs beserta versi dari dependensi nya
+   - Ketik npm install chalk@4.1.0
+     - Untuk menginstall chalk beserta versi dari dependensi nya
+   - Ketik npm install validator@13.5.2
+     - Untuk menginstall validator beserta versi dari dependensi nya
+     
+2. Cara Penggunaan
+   - Ketik node app
+     - Untuk melihat list perintah
+   - Ketik node app add
+     - Untuk menambahkan Contact baru
+   - Ketik node app list
+     - Untuk menampilkan semua nama dan no hp Contact
+   - Ketik node app detail
+     - Untuk menampilkan detail sebuah Contact berdasarkan nama
+   - Ketk node app add --nama="" --email="" --noHP=""
+     - Untuk memanbahkan data baru
+   - Ketk node app delete--nama=""
+     - Untuk menghapus data yang ada
+
+3. Command Line Interface (CLI)
+   - Sebuah aplikasi yang memang berjalan di dalam terminal atau di dala command line, aplikasi cli itu berbeda dengan aplikasi web
+   - NodeJS bisa kita gunakan untuk membuat aplikasi web, tapi untuk membuat aplikasi web kita membutuhkan sebuah web server

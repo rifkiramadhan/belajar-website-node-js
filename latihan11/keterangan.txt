@@ -1,0 +1,13 @@
+---- Keterangan Latihan 11 (NodeJS Web Server) ----
+
+1. Pengertian
+   - createServer
+     - Untuk membuat sebuah server pada NodeJS
+   - http://localhost:3000/ (Port 3000)
+     - Karena di dalam sistem operasi biasanya banyak sekali port bahkan dari 0 s/d 60k, tapi masalahnya kita tidak mengetahui port mana yang kosong
+       dan port mana yang sedang digunakan jika ada tulisan Yes atau Assigned itu sudah ada yang pakai jadi kita harus menentukan port nya terlebih
+       dahulu
+     - Menggunakan port 3000 karena tidak ada yang menggunakan dan menjadi standar untuk digunakan sebagai port web server jika menggunkan NodeJS,
+       Rubby, dll
+   - Express
+     - Semua yang kita lakukan akan dengan mudah dilakukan menggunakn Express
