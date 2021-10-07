@@ -8,23 +8,18 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-    <title>Halaman Contact</title>
+    <!-- My Public CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title><%= title; %> </title>
   </head>
   <body>
-    <h3>Links</h3>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/about">About</a>
-        </li>
-        <li>
-            <a href="/contact">Contact</a>
-        </li>
-    </ul>
 
-    <h1>Ini adalah Halaman Contact!</h1>
+    <%- include('nav'); %> 
+
+    <div class="container">
+        <%- body; %> 
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

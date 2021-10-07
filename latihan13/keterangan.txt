@@ -1,4 +1,4 @@
----- Keterangan Latihan 14 (Express Middleware) ----
+---- Keterangan Latihan 13 (Express View Engine) ----
 
 1. Pengertian
    - createServer
@@ -42,24 +42,6 @@
        - Easy Debugging
        - Active Development
        - Awalnya dibuah oleh pembuat Express
-   - Middle Ware
-     - Sebuah software yang menghubungkan software atau aplikasi lain
-       - Awalnya Middleware ini adalah sebuah istilah untuk menghubungkan sebuah aplikasi di komputer kita dengan sistem operasi
-   - Express Middle
-     - Aplikasi Express itu sebenarnya berisi serangkaian pemanggilan fungsi Middleware
-     - User-defined Middleware
-       - Application-level Middle
-       - Router-level Middleware
-       - Error-handling Middleware
-     - Built-in Middleware
-       - Sudah tertanam di dalam express yang berfungsi untuk melakukan sesuatu sescara spesifik
-     - Third-party Middleware
-       - Sudah dibuatkan oleh orang lain yang dapat kita install melalui npm tapi bukan sebagai modul tapi sebagai Middleware
-   - Fungsi Middleware
-     - Sebuah fungsi yang memiliki akses ke object request (req), object response (res), dan fungsi Middleware berikutnya (next)
-   - Express Static
-     - Supaya kita dapat mengakses asset-aset pada website, maka kita harus memberi tahu kepada experss nya kalau kita memiliki folder
-       public yang isinya file-file static yang boleh diakses oleh siapapun dengan Middleware build-in yaitu expres.static
    - res (Response)
      - Artinya apa yang dikembalikan oleh express ketika kita mentarget path atau alamat tertentu
    - req (Request)
@@ -68,10 +50,6 @@
      - Artinya mengirim isi dari sebuah file
    - sendFile
      - Artinya mengembalikan isi dari sebuah file
-   - Routing
-     - Adalah sebuah program yang berjalan setelah kita melakukan request dan sebelum halamannya tampil ke layar
-   - use
-     - Artinya fungsi ini akan selalu dijalankan ketika menerima route ('/')
 
 2. Cara Penggunaan
    - Ketik npm init -y
@@ -83,6 +61,4 @@
    - Ketik npm install ejs@3.1.6
      - Untuk menginstall ejs ke dalam dependensi sesuai dengan versinya
    - Ketik npm install express-ejs-layouts@2.5.0
-     - Untuk menginstall express ejs layouts ke dalam dependensi sesuai dengan versinya
-   - Ketik npm install morgan@1.10.0
-     - Untuk menginstall morgan ke dalam dependensi sesuatu dengan versinya
+     - Untuk menginstall ejs layouts ke dalam dependensi sesuai dengan versinya
