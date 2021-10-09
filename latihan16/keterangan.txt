@@ -1,4 +1,4 @@
----- Keterangan Latihan 17 (Express Contact App (Bagian 3)) ----
+---- Keterangan Latihan 16 (Express Contact App (Bagian 2)) ----
 
 1. Pengertian
    - createServer
@@ -85,8 +85,6 @@
      - Artinya mengubah object menjadi string 
    - find
      - Berfungsi untuk menelusuri ketika ketemu satu lalu selesai
-   - filter
-     - Berfungsi untuk menelusuri ketika ketemu sampai akhir
 2. Cara Penggunaan
    - Ketik npm init -y
      - Untuk membuat file package.json
