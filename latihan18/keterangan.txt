@@ -1,0 +1,56 @@
+---- Keterangan Latihan (18 Apa itu MongoDB ?) ----
+
+1. Pengertian
+   - MongoDB
+     - Humongous Database, Humongous Artinya besar dimana database ini bisa mengelola data yang sangat banyak dan sangat besar, mongo adalah
+       kata pendek dari Humongous
+     - MongoDB is a document database with the scalability and flexibility that you want with the querying and indexing that you need
+       - Jadi MongoDB adalah sebuah database berbasis dokumen yang memiliki skalabilitas dan fleksibilitas yang kita inginkan dan juga memiliki
+         fitur query dan indexing yang kita butuhkan
+   - Database Berbasis Dokumen
+     - Salah satu tipe dari NoSQL Database
+   - NoSQL Database
+     - Not Only SQL
+       - Jadi dia bisa melakukan apa yang bisa dilakukan oleh SQL database bahkan lebih
+     - Schemaless / Flexible Schema
+       - Artinya database yang tidak memiliki skema atau database yang tidak terstruktur
+     - Denormalization
+       - Karena datanya boleh saja tidak terstruktur jadi tidak dipermasalahkan untuk menggunakan data yang tidak normal
+     - Non-relational Database
+       - Jadi di dalamnya bisa saja tidak ada relasi antar data nya, jadi tidak menganut konsep Primary Key, Foreign Key, Lalu kredinalitas.
+         Karena tidak ada relasi antar tabel
+     - Unstructured, semi-structured, structured data
+       - Karena tidak ada skemanya maka kita dapat menyimpan beragam jenis data
+   - Tipe NoSQL Database
+     - Key-value Store
+       - Dimana di dalamnya menyimpan antara pasangan key dan value, ini adalah database yang sangat cepat untuk dibaca, biasanya digunakan untuk
+         - Redis, Sebagai databasenya
+     - Document Based
+       - MongoDB, CouchDB
+     - Column-oriented Database
+       - Jadi database nya berbasis kolom
+         - HBase, Cassandra
+     - Graph Database
+       - Neo4J
+   - Kenapa MongoDB ?
+     - JSON (BSON)
+       - Karena format datanya bentuknya JSON
+     - Javascript
+       - Karena semua nya berhubungan dengan Javascript
+     - MERN, MEVN, MEAN
+
+2. Cara Pakai MongoDB Menggunakan CLI
+   - Ketik use wpu
+     - Untuk membuat database baru
+   - Ketik db.createCollection('mahasiswa')
+     - Untuk membuat data Collection JSON
+   - Ketik show Collections
+     - Untuk melihat nama Collection yang dibuat
+   - Ketik db.mahasiswa.insertOne({nama: "Rina Andhini", email: "rinaa@gmail.com"})
+     - Untuk membuat isi Collection yang dibuat
+   - Ketik db.mahasiswa.find()
+     - Untuk melihat isi Collection yang dibuat
+   - Ketik db.mahasiswa.insertMany([nama: "Rina Andhini", email: "rinaa@gmail.com"}, {nama: "Anji Tawika", email: "tawikaa@gmail.com"])
+     - Untuk membuat isi Collection lebih dari satu
+   - Ketik show dbs
+     - Untuk melihat nama seluruh database di cloud
