@@ -13,13 +13,7 @@
                   <h6 class="card-subtitle mb-2 text-muted"><%= contact.nohp; %> </h6>
                   <p class="card-text"><%= contact.email; %> </p>
                   <a href="/contact/edit/<%= contact.nama %>" class="btn btn-info badge">Ubah</a>
-                  <!-- <a href="/contact/delete/<%= contact.nama %>" class="btn btn-danger badge" onclick="return confirm('Yakin ?');">Hapus</a> -->
-                  
-                  <form action="/contact?_method=DELETE" class="d-inline" method="POST">
-                    <input type="hidden" name="nama" value="<%= contact.nama %>">
-                    <button type="submit" class="btn btn-danger badge" onclick="return confirm('Yakin ?');">Hapus</button>
-                  </form>
-
+                  <a href="/contact/delete/<%= contact.nama %>" class="btn btn-danger badge" onclick="return confirm('Yakin ?');">Hapus</a>
                   <a href="/contact" class="card-link d-block mt-3">&laquo; Kembali</a>
                 </div>
               </div>

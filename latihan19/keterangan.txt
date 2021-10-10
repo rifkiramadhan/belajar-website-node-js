@@ -1,4 +1,4 @@
----- Keterangan Latihan 20 (MongoDB Contact App dengan Mongoose (Bagian 2)) ----
+---- Keterangan Latihan 19 (MongoDB Contact App dengan Mongoose (Bagian 1)) ----
 
 1. Pengertian
    - Mongoose
@@ -20,8 +20,4 @@
      - Untuk menginstall cookie parser sesuai dengan versi pada dependensi
    - Ketik npm install connect-flash@0.1.1
      - Untuk menginstall connect flash sesuai dengan versi pada dependensi
-   - Ketik npm install express-validator@6.12.0
-     - Untuk menginstall express validator sesuai dengan versi pada dependensi
-   - Ketik npm install method-override@3.0.0
-     - Untuk menginstall method override sesuai dengan versi pada dependensi
    

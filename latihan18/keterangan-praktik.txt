@@ -1,0 +1,15 @@
+---- Keterangan Latihan Praktik (MongoDB & NodeJS) ----
+
+1. Cara Penggunaan Installasi
+   - Ketik npm i mongodb@3.6.9
+     - Untuk menginstall MongoDB beserta versinya kedalam dependensi
+
+2. Cara Penggunaan MongoDB
+   - Ketik show dbs
+     - Untuk melihat seluruh nama pada database
+   - Ketik use wpu
+     - Untuk menggunakan nama database wpu
+   - Ketik show collections
+     - Untuk melihat ada collection apa saja
+   - Ketik db.mahasiswa.find()
+     - Untuk melihat isi dari collection yang telah dibuat

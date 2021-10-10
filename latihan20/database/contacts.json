@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "6162fa31f76fcf3230b88fc8"
+  },
+  "nama": "Rifki Ramadhan",
+  "nohp": "082122116992",
+  "email": "riifkiramadhan2@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61630c78211a8b01e486e28c"
+  },
+  "nama": "Tony Q Rastafara",
+  "email": "tonyq@gmail.com",
+  "nohp": "082122116666",
+  "__v": 0
+}]

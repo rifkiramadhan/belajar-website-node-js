@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6161c404c9d4f352f8980a0d"
+  },
+  "nama": "Rifki Ramadhan",
+  "email": "riifkiramadhan2@gmail.com"
+},{
+  "_id": {
+    "$oid": "6161c4fdc9d4f352f8980a0e"
+  },
+  "nama": "Rina Andhini",
+  "email": "rinaa@gmail.com"
+},{
+  "_id": {
+    "$oid": "6161c4fdc9d4f352f8980a0f"
+  },
+  "nama": "Anji Tawika",
+  "email": "tawikaa@gmail.com"
+},{
+  "_id": {
+    "$oid": "6161c6e53c710920677867ad"
+  },
+  "nama": "Novariza",
+  "email": "nova@gmail.com"
+}]
